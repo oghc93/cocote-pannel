@@ -7,7 +7,7 @@
 # ============================================================
 
 REPO="https://raw.githubusercontent.com/chanelog/bin/main"
-RAW="https://raw.githubusercontent.com/oghc93/xray-tunell/main"
+RAW="https://raw.githubusercontent.com/oghc93/cocote-pannel/main"
 SCRIPT_DIR="/etc/vpn-script"
 BIN_DIR="/usr/local/bin"
 
@@ -1019,22 +1019,23 @@ install_script_files() {
   chmod +x $BIN_DIR/vpn
 
   # vpn-update: updater panel web (dipakai menu 14 "Update Panel Web")
-  wget -q --timeout=30 "https://raw.githubusercontent.com/oghc93/xray/main/deploy/update.sh" -O "$BIN_DIR/vpn-update" 2>/dev/null
+  wget -q --timeout=30 "https://raw.githubusercontent.com/oghc93/cocote-3x-ui/main/deploy/update.sh" -O "$BIN_DIR/vpn-update" 2>/dev/null
   if [[ -s "$BIN_DIR/vpn-update" ]]; then chmod +x "$BIN_DIR/vpn-update"; else rm -f "$BIN_DIR/vpn-update"; fi
 
   # Server Message (banner SSH) -- tampil berwarna di DarkTunnel & app sejenis (tag HTML)
   cat > "$SCRIPT_DIR/banner.txt" <<'BANNER_EOF'
-<br>
-<font color="#FF0A78">━━━━━━━━━━</font><font color="#A020F0">ஜ۩۞۩ஜ</font><font color="#FF0A78">━━━━━━━━━━</font><br>
-<b><font color="#FFFF00">--- ✦ by CHANEL-OG ✦ ---</font></b><br>
+<br><br>
+<font color="#2979FF">━━━━━━━━━━</font><font color="#A020F0">ஜ۩۞۩ஜ</font><font color="#2979FF">━━━━━━━━━━</font><br><br>
+<b><font color="#FFFF00">--- ✦ by CHANEL-OG ✦ ---</font></b><br><br>
 <font color="#FF1744">! TERM OF SERVICE !</font><br>
 <font color="#2979FF">NO SPAM</font><br>
 <font color="#2979FF">NO DDOS</font><br>
 <font color="#00B0FF">NO HACKING AND CARDING</font><br>
 <font color="#FF1744">NO TORRENT!!</font><br>
 <font color="#FF1493">NO MULTI LOGIN!!</font><br>
-<font color="#FF1493">👉 NO MULTI LOGIN!! 👈</font><br>
-<font color="#FF0A78">━━━━━━━━━━</font><font color="#A020F0">ஜ۩۞۩ஜ</font><font color="#FF0A78">━━━━━━━━━━</font><br>
+<br>
+<font color="#00B0FF">==ENJOOOOY==</font><br><br>
+<font color="#2979FF">━━━━━━━━━━</font><font color="#A020F0">ஜ۩۞۩ஜ</font><font color="#2979FF">━━━━━━━━━━</font><br>
 BANNER_EOF
 
   echo -e "${GREEN}[OK]${NC} Script files terinstall"
