@@ -74,8 +74,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:109'
-RESPONSE = ('HTTP/1.1 101 WebSocket <font color="lime">Yaddy Kakkoii </font>'
-            '<font color="yellow">Tampan </font><font color="red">Maksimal</font>\r\n'
+RESPONSE = ('HTTP/1.1 101 WebSocket <font color="lime">chanel-OG</font>\r\n
             'Upgrade: websocket\r\n'
             'Connection: Upgrade\r\n'
             'Sec-WebSocket-Accept: foo\r\n\r\n')
@@ -368,8 +367,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:22'
-RESPONSE = ('HTTP/1.1 101 WebSocket <font color="lime">Yaddy Kakkoii </font>'
-            '<font color="yellow">Tampan </font><font color="red">Maksimal</font>\r\n'
+RESPONSE = ('HTTP/1.1 101 WebSocket <font color="lime">chanel-OG</font>\r\n
             'Upgrade: websocket\r\n'
             'Connection: Upgrade\r\n'
             'Sec-WebSocket-Accept: foo\r\n\r\n')
