@@ -52,13 +52,13 @@ panel_menu() {
     ui_line "Status : ${GREEN}terpasang${NC}"
     ui_line "Alamat : ${WHITE}https://$(get_domain)/panel/${NC}"
     echo -e "${CYAN}$UI_BOX_MID${NC}"
-    ui_2col "$(ui_menu_num 1 'Update panel')" "$(ui_menu_num 2 'Pasang ulang panel')"
-    ui_line "$(ui_menu_num 0 'Kembali' "$DIM")"
+    ui_2col "$(ui_menu_num 01 'Update panel')" "$(ui_menu_num 02 'Pasang ulang panel')"
+    ui_line "$(ui_menu_num 00 'Kembali' "$DIM")"
   else
     ui_line "Status : ${YELLOW}belum terpasang${NC}"
     echo -e "${CYAN}$UI_BOX_MID${NC}"
-    ui_line "$(ui_menu_num 1 'Pasang panel sekarang')"
-    ui_line "$(ui_menu_num 0 'Kembali' "$DIM")"
+    ui_line "$(ui_menu_num 01 'Pasang panel sekarang')"
+    ui_line "$(ui_menu_num 00 'Kembali' "$DIM")"
   fi
   echo -e "${CYAN}$UI_BOX_BOT${NC}"
   echo ""
