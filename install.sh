@@ -1065,15 +1065,15 @@ install_script_files() {
   cat > "$SCRIPT_DIR/banner.txt" <<'BANNER_EOF'
 <br><br>
 <font color="#2979FF">━━━━━━━━━━</font><font color="#A020F0">ஜ۩۞۩ஜ</font><font color="#2979FF">━━━━━━━━━━</font><br><br>
-<b><font color="#FFFF00">--- ✦ by CHANEL-OG ✦ ---</font></b><br><br>
-<font color="#FF1744">! TERM OF SERVICE !</font><br>
-<font color="#2979FF">NO SPAM</font><br>
-<font color="#2979FF">NO DDOS</font><br>
-<font color="#00B0FF">NO HACKING AND CARDING</font><br>
-<font color="#FF1744">NO TORRENT!!</font><br>
-<font color="#FF1493">NO MULTI LOGIN!!</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color="#FFFF00">--- ✦ by CHANEL-OG ✦ ---</font></b><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF1744">! TERM OF SERVICE !</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2979FF">NO SPAM</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2979FF">NO DDOS</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00B0FF">NO HACKING AND CARDING</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF1744">NO TORRENT!!</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF1493">NO MULTI LOGIN!!</font><br>
 <br>
-<font color="#00B0FF">==ENJOOOOY==</font><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#00B0FF">==ENJOOOOY==</font><br><br>
 <font color="#2979FF">━━━━━━━━━━</font><font color="#A020F0">ஜ۩۞۩ஜ</font><font color="#2979FF">━━━━━━━━━━</font><br>
 BANNER_EOF
 
